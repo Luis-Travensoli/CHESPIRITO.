@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(248, 244, 244);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.video-catalog {
+  padding: 20px;
+  background-color: rgb(250, 247, 247);
+}
+
+.video-catalog h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-item {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.video-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.video-item h3 {
+  font-size: 24px;  /* Aumenta o tamanho da fonte do título */
+  font-weight: bold; /* Deixa o título em negrito */
+  margin-top: 10px;  /* Espaço entre a imagem e o título */
+  color: #333;       /* Cor do título */
+  text-align: center; /* Centraliza o título */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
