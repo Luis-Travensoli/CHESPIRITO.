@@ -1,6 +1,6 @@
 body {
     color: rgb(0, 0, 0);
-    background: black;
+    background: rgb(31, 30, 30);
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
@@ -63,5 +63,10 @@ p {
 }
 
 .categoria h2 {
+    color: rgb(0, 130, 216);
+}
+
+
+.categoria1 h2 {
     color: rgb(0, 130, 216);
 }
